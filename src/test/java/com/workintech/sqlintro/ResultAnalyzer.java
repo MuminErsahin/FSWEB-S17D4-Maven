@@ -63,7 +63,7 @@ public class ResultAnalyzer implements TestWatcher, AfterAllCallback{
         json.put("userId", userId);
         sendTestResult(json.toString());
     }
-
+//bitti
     private void sendTestResult(String result) throws IOException {
         CloseableHttpClient httpClient = HttpClientBuilder.create().build();
         try {
